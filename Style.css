@@ -7,7 +7,9 @@
 }
 
 nav {
-    height: 80px;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
     display: flex;
 }
 
@@ -17,8 +19,7 @@ ul {
 
 li {
     list-style: none;
-    margin-left: 40px;
-    font-size: 20px;
+   
 }
 
 .nav__logo {
@@ -35,7 +36,28 @@ li {
     margin: 0 auto;
 }
 
-
+.nav__link {
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+}
 .nav__link--primary {
-    background-color: blueviolet;
+    margin-left: 20px;
+    border: 2px solid #7342d6;
+    border-radius: 15px;
+    background-color: rgb(136, 146, 161);
+}
+ 
+.Treact__bold {
+    display: flex;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-right: 250px;
+}
+
+@media 750px {
+    width: 100%;
+    
 }
