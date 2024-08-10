@@ -36,6 +36,12 @@ nav {
     font-size: 40px;
     font-weight: bolder;
     text-decoration: none;
+    margin-top: 15px;
+}
+
+.logo__wrapper {
+    display: flex;
+    
 }
 
 ul {
