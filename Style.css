@@ -17,7 +17,7 @@ nav {
     text-decoration: none;
 }
 
-.nav__container {
+.row {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -134,4 +134,46 @@ width: 90%;
     max-width: 1200px;
     padding: 0 24px;
 }
+
+.mid__container {
+    padding: 80px 0;
+}
+
+.row__description {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mid__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.h1__title {
+    padding: 20px;
+}
+
+.h1__para {
+  padding: 10px;
+    max-width: 600px;
+}
+
+.service__description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.title__description {
+    display: flex;
+    width: calc(100%/3);
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
 
