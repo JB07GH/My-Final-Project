@@ -65,7 +65,7 @@ font-size: 20px;
 .nav__link--primary {
     border: solid 3px;
     padding: 10px 20px;
-    background-color: rgb(60, 34, 190);
+    background-color: rgb(105, 83, 218);
     border-radius: 10px;
     color: white;
 }
@@ -111,7 +111,8 @@ width: 90%;
     padding: 10px;
     border-radius: 20px;
     font-size: 20px;
-    background-color: rgb(178, 166, 238);
+    background-color: rgb(105, 83, 218);
+    color: white;
 }
 
 .form {
@@ -136,7 +137,7 @@ width: 90%;
 }
 
 .mid__container {
-    padding: 80px 0;
+    padding: 2px 0;
 }
 
 .row__description {
@@ -154,15 +155,18 @@ width: 90%;
 
 .h1__title {
     padding: 20px;
+    font-size: 30px;
 }
 
 .h1__para {
   padding: 10px;
-    max-width: 600px;
+    max-width: 700px;
+    text-align: center;
 }
 
 .service__description {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -174,6 +178,35 @@ width: 90%;
     width: calc(100%/3);
     flex-wrap: wrap;
     padding: 20px;
+    text-align: left;
 }
 
+.para {
+max-width: 300px;
+}
 
+#image__pro {
+    display: flex;
+padding: 100px 0;
+width: 100%;
+}
+
+.img__pro {
+    max-width: 90%;
+}
+
+.row__quality {
+    width: 90%;
+}
+
+.h3__title {
+    margin-bottom: 20px;
+}
+.H1__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.P__para {
+    margin-bottom: 20px;
+}
