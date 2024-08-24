@@ -155,13 +155,14 @@ width: 90%;
 
 .h1__title {
     padding: 20px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .h1__para {
   padding: 10px;
     max-width: 700px;
     text-align: center;
+    font-size: 18px;
 }
 
 .service__description {
@@ -179,15 +180,17 @@ width: 90%;
     flex-wrap: wrap;
     padding: 20px;
     text-align: left;
+    font-size: 20px;
 }
 
 .para {
 max-width: 300px;
+font-size: 20px;
 }
 
 #image__pro {
     display: flex;
-padding: 100px 0;
+padding: 50px 0;
 width: 100%;
 }
 
@@ -203,10 +206,68 @@ width: 100%;
     margin-bottom: 20px;
 }
 .H1__title {
-    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .P__para {
     margin-bottom: 20px;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+.up {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.list {
+    margin-bottom: 10px;
+}
+
+.number {
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+.row__pricing {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pricing__border {
+    border-color: blanchedalmond;
+    border-style: groove;
+    border-radius: 10px ;
+    background-color: rgb(199, 167, 230);
+    padding: 70px;
+  margin: 0 auto;
+    width: calc(100%/3);
+}
+
+.para__pricing {
+    margin-bottom: 30px;
+}
+
+.para__center {
+    padding: 10px;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.next__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
