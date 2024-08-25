@@ -108,11 +108,12 @@ width: 90%;
 
 .email__button {
     border: solid 2px;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 20px;
+    padding: 8px;
+    border-radius: 30px;
+    font-size: 16px;
     background-color: rgb(105, 83, 218);
     color: white;
+    margin-top: 10px;
 }
 
 .form {
@@ -181,6 +182,7 @@ width: 90%;
     padding: 20px;
     text-align: left;
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .para {
@@ -270,4 +272,16 @@ ol {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+.indi__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: calc(100%/5);
+}
+
+.row__footer--links {
+    display: flex;
+    flex-wrap: wrap;
 }
