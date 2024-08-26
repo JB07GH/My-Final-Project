@@ -147,6 +147,10 @@ width: 90%;
     margin: 0 auto;
 }
 
+.row__quality {
+    margin-top: 20px;
+}
+
 .mid__section {
     display: flex;
     flex-direction: column;
@@ -248,9 +252,10 @@ ol {
     border-style: groove;
     border-radius: 10px ;
     background-color: rgb(199, 167, 230);
-    padding: 70px;
-  margin: 0 auto;
+    padding: 50px;
+  margin: 0 20px;
     width: calc(100%/3);
+    flex-direction: column;
 }
 
 .para__pricing {
@@ -284,4 +289,42 @@ width: calc(100%/5);
 .row__footer--links {
     display: flex;
     flex-wrap: wrap;
+}
+
+.atag {
+    padding: 10px;
+}
+
+.atag__main {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.footer__logo {
+    display: flex;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.row__footer--links {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.footer__tag {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.logo__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0 24px;
+    align-items: center;
+    margin-top: 40px;
+
 }
